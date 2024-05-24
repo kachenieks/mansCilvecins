@@ -1,1 +1,1 @@
-# mansCilvecins
+# Unity projekts - cilvēciņa kostumizācija
