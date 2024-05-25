@@ -10,7 +10,7 @@ public class ShowTextScrip : MonoBehaviour
     public TMP_InputField inputFieldYear;
     public TMP_Text displayField;
 
-    string[] words = { "Sveiki", "Laipni lūgti", "Sveicināti", "Čau" };
+    string[] words = { "Sveiks varoni -", "Laipni lūgti varoni -", "Sveicināti varoni -", "Čau varoni -" };
     int randomNumb;
     int age;
 
@@ -22,7 +22,7 @@ public class ShowTextScrip : MonoBehaviour
         {
             age = 2024 - birthYear;
             randomNumb = Random.Range(0, words.Length);
-            displayField.text = words[randomNumb] + ", " + inputFieldName.text + ". \nJums ir: " + age + " gadi!";
+            displayField.text = words[randomNumb] + " " + inputFieldName.text + ". \nJums ir: " + age + " gadi!";
         }
     }
 
